@@ -1,0 +1,217 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Core styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  line-height: 26px;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1252px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+/* Forms section style */
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 0;
+  background-color: #E7E7E7;
+}
+
+.form-section__container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.form-section__container > div,form {
+  min-width: 50%;
+  min-height: 640px;
+}
+
+.hero-info {
+  position: relative;
+  padding: 6rem 7.5rem;
+  background-image: url(../Image/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  border-radius: 2rem;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  padding: 0.5rem 1.5rem;
+  opacity: 0.8;
+  border: 1px solid #FFFFFF;
+  border-radius: 4.1rem;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  margin-top: 6rem;
+}
+
+.hero-description {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-top: 2.5rem;
+}
+
+.bottom-btn {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.7rem 0;
+  background: #4DC490;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.btn-text {
+  font-weight: 700;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  padding: 5.5rem 6rem;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: #000;
+}
+
+.input-box {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #555555;
+  padding: 1.1rem 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.form-control:not(:last-of-type) {
+  margin-bottom: 3.5rem;
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding: 2rem 0;
+  margin-top: 6.3rem;
+  border: none;
+  background: #655AF2;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.click {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #555555;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.click-text {
+  color: #F03535;
+}
